@@ -7,8 +7,10 @@ part 'item.freezed.dart';
 class Item with _$Item {
   const factory Item({
     required String name,
-    @Default('') String description,
-    @Default('') String imageUrl,
+    required String shortDescription,
+    @Default('') String fullDescription,
+    required String thumbnail,
+    required String sourceUrl,
   }) = _Item;
 
 }

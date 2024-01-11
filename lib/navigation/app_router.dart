@@ -5,6 +5,10 @@ import 'package:test_task_1/features/item_list/view/list_screen/item_list_screen
 
 part 'app_router.gr.dart';
 
+///Using AutoRoute is probably overkill for this app but still it's pretty easy
+///library to work with and I'm using freezed so code generation is a thing even
+///without this library
+
 @AutoRouterConfig()
 class AppRouter extends _$AppRouter {
   @override
