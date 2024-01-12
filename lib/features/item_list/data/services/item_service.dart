@@ -1,6 +1,4 @@
-import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:test_task_1/core/entity/failure.dart';
 import 'package:test_task_1/features/item_list/data/services/endpoints.dart';
 
 class ItemService {
