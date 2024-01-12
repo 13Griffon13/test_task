@@ -3,7 +3,6 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_task_1/features/item_list/data/repository/placeholder_repository.dart';
 import 'package:test_task_1/features/item_list/data/services/item_service.dart';
-import 'package:test_task_1/features/item_list/domain/repository/items_repository.dart';
 import 'package:test_task_1/features/item_list/view/list_screen/cubit/item_list_cubit.dart';
 
 @RoutePage(name: 'ItemBlocProviderRoute')

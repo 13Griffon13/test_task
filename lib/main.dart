@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_task_1/locales/strings.dart';
 import 'package:test_task_1/navigation/app_router.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: _appRouter.config(),
-      title: 'List App',
+      title: Strings.appTitle,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,

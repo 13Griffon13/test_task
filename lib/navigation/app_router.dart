@@ -1,7 +1,9 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:flutter/material.dart';
 import 'package:test_task_1/features/item_list/view/items_bloc_provider.dart';
 import 'package:test_task_1/features/item_list/view/detail_screen/detail_screen.dart';
 import 'package:test_task_1/features/item_list/view/list_screen/item_list_screen.dart';
+import 'package:test_task_1/features/item_list/domain/entity/item.dart';
 
 part 'app_router.gr.dart';
 

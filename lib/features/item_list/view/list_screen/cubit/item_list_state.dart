@@ -5,13 +5,14 @@ import 'package:test_task_1/features/item_list/domain/entity/item.dart';
 
 part 'item_list_state.freezed.dart';
 
+
 @freezed
 class ItemListState with _$ItemListState {
   const factory ItemListState({
     @Default([]) List<Item> items,
-    String? searchRequest,
+    @Default('')String searchRequest,
     List<Item>? searchResult,
-    @Default(1) int albumsLoaded,
+    @Default(false) bool isLoading,
     Failure? error,
   }) = _ItemListState;
 

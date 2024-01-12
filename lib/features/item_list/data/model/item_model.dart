@@ -29,5 +29,12 @@ class ItemModel with _$ItemModel {
         shortDescription: title,
         thumbnail: thumbnailUrl,
         sourceUrl: url,
+        fullDescription: '''
+        Album#$albumId, 
+        Photo#$id, 
+        $title
+        $url
+        $thumbnailUrl
+        '''
       );
 }
